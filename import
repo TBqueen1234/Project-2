@@ -147,6 +147,10 @@ While (infom <= numComp) {
       System.out.println("Monitor Resolution: " + monitorResolutionAsString);
       System.out.printf("Performance Score: %,.3f\n", performanceScore );
       System.out.println("Recommended Graphics Quality: " + recommendedQuality);
+      
+      System.out.println("hight perfomance" + score)
+      System.out.println("lowest perfance " +score)
+      
    
    }
 }
