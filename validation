@@ -1,0 +1,23 @@
+puClockSpeed = keyboard.nextDouble();
+      while ( gpuClockSpeed < 800 || gpuClockSpeed > 2000){
+            system.out.println("invailded, enter number between 800 and 2,000");
+            gpuClockSpeed = keyboard.nextDouble()
+            }
+            
+        
+      System.out.print("Please enter the clock speed (in Megahertz between 1000 and 5500) of your processor: ");
+      cpuClockSpeed = keyboard.nextDouble();
+       while ( cpuClockSpeed < 1000 || gpuClockSpeed > 5500){
+            system.out.println("invailded, enter number between 1000 and 5,500");
+            cpuClockSpeed = keyboard.nextDouble()
+            }
+      
+      
+   
+   
+      System.out.print("Please enter the number of cores of your processor (between 1 and 16) : ");
+      cpuCoreNumber = keyboard.nextInt();
+       while ( cpuCoreNumber < 1 || gpuClockSpeed > 16){
+            system.out.println("invailded, enter number between 1 and 16");
+            cpuCoreNumber = keyboard.nextDouble()
+            }
