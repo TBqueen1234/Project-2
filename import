@@ -39,6 +39,21 @@ public class Project1_Solution
                    PERFORMANCE_THRESHOLD_LOW= 11000; 
    
       //get the user's input
+ 
+ int numComp = 0;
+    System.out.println(“Enter the number of computers you would like to include”);
+numComp = Scan.nextInt();
+While (numComp < 0) {
+system.out.println(“Invaid number, please try again: “);
+}
+Int Infom = 0;
+While (infom <= numComp) {
+++Inform;
+
+      
+      
+      
+      
       System.out.print("Please enter the clock speed (in Megahertz) of your graphics card: ");
       gpuClockSpeed = keyboard.nextDouble();
    
@@ -76,6 +91,7 @@ public class Project1_Solution
       {
          multiplier = MULTIPLIER_3840_2160;
          monitorResolutionAsString = "3840 X 2160";
+      }
       }
       
       //calculate the performance score   
