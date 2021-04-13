@@ -1,0 +1,7 @@
+Int numComp =0;
+System.out.println(“Enter the number of computers you would like to include”);
+NumComp = Scan.nextInt();
+While (numComp < 0) {
+system.out.println(“Invaid number, please try again: “);
+}
+ 
